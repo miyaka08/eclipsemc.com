@@ -1,3 +1,16 @@
 {
-    "id": "KGUawMfSg"
+    "id": "KGUawMfSg",
+    "name": "cheaters",
+    "product": "livechat",
+    "blocks": {
+        "repository": {
+            "provider": "github",
+            "name": "miyaka08/eclipsemc.com",
+            "branch": "master"
+        },
+        "deployment": {
+            "provider": "netlify",
+            "url": "https://cheaters.netlify.app"
+        }
+    }
 }
