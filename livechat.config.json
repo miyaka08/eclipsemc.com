@@ -3,6 +3,11 @@
     "name": "cheaters",
     "product": "livechat",
     "blocks": {
+        "authorization": {
+            "clientId": "0d1ed098e1ab763e03e249187ff87842",
+            "type": "server_side_app",
+            "redirectUri": "https://cheaters.netlify.app"
+        },
         "repository": {
             "provider": "github",
             "name": "miyaka08/eclipsemc.com",
@@ -11,6 +16,18 @@
         "deployment": {
             "provider": "netlify",
             "url": "https://cheaters.netlify.app"
+        },
+        "widgets": {
+            "ipbhyxzwIH": {
+                "url": "https://livechat-sample-agent-app.glitch.me/",
+                "placement": "messagebox",
+                "initialState": ""
+            },
+            "8RB6kE2fQD": {
+                "url": "https://livechat-contact-form.netlify.app/",
+                "placement": "messagebox",
+                "initialState": ""
+            }
         }
     }
 }
